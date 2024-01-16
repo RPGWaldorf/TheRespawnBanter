@@ -1,38 +1,269 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Il Tuo Videogioco</title>
-</head>
-<body>
-    <section id="introduzione">
-        <h1>Il Tuo Videogioco</h1>
-        <p>Descrizione breve del gioco...</p>
-    </section>
+<!DOCTYPE HTML>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>The Respawn Banter</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<style>
+			body {
+            margin: 0;
+            padding: 0;
+			background-color: #282b2b;
 
-    <section id="immagini">
-        <!-- Immagini o video del gioco -->
-    </section>
+        }
 
-    <section id="caratteristiche">
-        <h2>Caratteristiche Principali</h2>
-        <ul>
-            <li>Feature 1</li>
-            <li>Feature 2</li>
-            <!-- ... -->
-        </ul>
-    </section>
+        header {
+            text-align: center;
+			background-color: rgba(240, 240, 240, 0.6);
+            padding: 0px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
 
-    <section id="download">
-        <h2>Download/Play</h2>
-        <p>Link per il download o istruzioni su come giocare...</p>
-    </section>
+        .main-overlay img {
+            max-width: 18%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+			object-fit: cover;
+        }
 
-    <section id="contatti">
-        <h2>Contatti</h2>
-        <p>Informazioni per il supporto o feedback...</p>
-    </section>
-</body>
+        /* Aggiungi uno spazio di riempimento per evitare che il resto del contenuto vada dietro l'header */
+        body {
+            padding-top: 0px; /* Regola la quantità di spazio in base all'altezza dell'header */
+        }
+
+		iframe {
+			position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+
+		.video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* Imposta l'aspect ratio del video (9:16 per 16:9) */
+        }
+		</style>
+
+<header class="main-overlay">
+	<a href="#" class="back-to-top">
+		<img src="images/RB_Logo.png" alt="Descrizione dell'immagine">
+	</a>
+    
+</header>
+
+<a href="#" class="back-to-top"></a>
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+
+				<!-- One -->
+					<section class="banner onload-image-fade-in onload-content-fade-right style5 fullscreen content-align-center image-position-center">
+						<div class="content">
+							<h1>The Respawn Banter</h1>
+							<p class="major"><b>The Respawn Banter is a unique adventure and visual novel hybrid where you are bound to die during your exploration. In the afterlife, the goddess of life’s role extends beyond mere revival: she seizes every opportunity to humor the hero’s demise, making each encounter a one-of-a-kind witty exchange.</p>
+							<ul class="actions stacked">
+								<li><a href="https://store.steampowered.com/app/2320550/The_Respawn_Banter/" target = "_blank" class="button big wide smooth-scroll-middle"><b>Wishlist now!</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/Final Keyart - Pandorf.jpg" alt="" />
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section class="spotlight style1 color5 orient-right content-align-left image-position-right onscroll-image-fade-in" id="first">
+						<div class="content">
+							<h2>The Story</h2>
+							<p>The game over screen has always been a mystery: what hides behind it?<br>
+								It might surprise you that behind it lies the goddess of life, who, by making just an exception, brings the hero back to life to enable him to resume his arduous path to victory.<br>
+								If only they would get along...
+							</p>
+						</div>
+						<div class="image">
+							<img src="images/levenne pose.PNG" alt="" />
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>The Gameplay</h2>
+							<p>Explore and avoid unfairly funny traps. Be ready to die, but always with a smile on your face!<br>
+								But dying is not the end of the game, it's the start of the joke!<br>
+								Experience countless dynamic discussions based on how you reach a game over!
+							</p>
+						</div>
+						<div class="image">
+							<img src="images/hero trap.PNG" alt="" />
+						</div>
+					</section>
+
+				<!-- Four -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>Meet the characters</h2>
+							<p>Get to know the cast of characters you will meet over the course of your multiple lives!<br>
+								A stupid hero who cannot shut up for a single second? An extremely moody life goddess? What could possibly go wrong?	
+							</p>
+						</div>
+						<div class="image">
+							<img src="images/hero light.PNG" alt="" />
+						</div>
+					</section>
+
+				<!-- Five -->
+					<section class="wrapper style1 align-center">
+						<div class="inner">
+							<h2>Screenshots</h2>
+							<p>NOTE: The screenshots are all from the demo version, the complete game will feature more ambience variety.</p>
+						</div>
+
+						<!-- Gallery -->
+							<div class="gallery style2 medium lightbox onscroll-fade-in">
+								<article>
+									<a href="images/gallery/fulls/not a dream.png" class="image">
+										<img src="images/gallery/fulls/not a dream.png" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Skill issue</h3>
+										<p></p>
+										<ul class="actions fixed">
+											<li><span class="button small">Check</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/slime gang.png" class="image">
+										<img src="images/gallery/fulls/slime gang.png" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Surely peaceful slimes</h3>
+										<p></p>
+										<ul class="actions fixed">
+											<li><span class="button small">Check</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/backwards.png" class="image">
+										<img src="images/gallery/fulls/backwards.png" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Normal day at Levenne's</h3>
+										<p></p>
+										<ul class="actions fixed">
+											<li><span class="button small">Check</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/muffin.png" class="image">
+										<img src="images/gallery/fulls/muffin.png" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Existential thoughts</h3>
+										<p></p>
+										<ul class="actions fixed">
+											<li><span class="button small">Check</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/clover.png" class="image">
+										<img src="images/gallery/fulls/clover.png" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Bad luck check</h3>
+										<p></p>
+										<ul class="actions fixed">
+											<li><span class="button small">Check</span></li>
+										</ul>
+									</div>
+								</article>
+							</div>
+
+					</section>
+
+				<!-- Six -->
+					<section class="wrapper style1 align-center">
+						<div class="inner">
+							<h2>Steam Demo Trailer</h2>
+							<div class="video-container">
+								<iframe  src="https://www.youtube.com/embed/TtckvdeWvxU" frameborder="0" allowfullscreen></iframe>
+							</div>
+							<div class="items style1 medium onscroll-fade-in">
+								<section>
+									<span class="icon style2 major fa-gem"></span>
+									<h3>The team</h3>
+									<p>The project is being carried out by RPG_Waldorf, who is the solely responsible for the entire game, marketing, commissioning game assets and creating this website help being a solo developer is hard please help me oh please I beg you.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-save"></span>
+									<h3>Other games</h3>
+									<p>"The Respawn Banter" is RPG_Waldorf's first commercial game, but there are <a href="https://waldorf.itch.io/" target = "_blank">many other completely free games</a> you should try!</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-bolt"></span>
+									<h3>Planned release</h3>
+									<p>There is no set release date for the game, as there's still much to do in the development process. Make sure sure to <a href="https://store.steampowered.com/app/2320550/The_Respawn_Banter/" target = "_blank">wishlist the game</a> and stay tuned on <a href="https://twitter.com/RPGWaldorf" target = "_blank">the Twitter page</a> for updates!</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-envelope"></span>
+									<h3>Contact us</h3>
+									<p>Feel free to reach out for anything related to the game via <a href="mailto:parawaldorf@gmail.com">email</a>, <a href="https://twitter.com/RPGWaldorf" target = "_blank">Twitter</a>, or our <a href="https://discord.gg/HSvZbBSEkT" target = "_blank">almost-official Discord server</a>.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-sync-alt"></span>
+									<h3>Localization</h3>
+									<p>The game demo is available in English, Italian and Spanish. Let me know if you'd like to see the game localized in your language!</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-cog"></span>
+									<h3>Press Kit</h3>
+									<p>You can find materials like character portraits, backgrounds, and art <a href="https://drive.google.com/drive/folders/1NhUI9dU4du9gLgV2B9feq89cwxMknogC?usp=sharing" target = "_blank">right there</a>!</p>
+								</section>
+							</div>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer class="wrapper style1 align-center">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="https://twitter.com/RPGWaldorf" target = "_blank" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.facebook.com/profile.php?id=100095695380155" target = "_blank" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="https://www.instagram.com/rpgwaldorfgames/" target = "_blank" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="mailto:parawaldorf@gmail.com" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+							<p>&copy; The Respawn Banter. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
